@@ -45,7 +45,7 @@ class Salon {
     this.alumnos.push(alumno);
   }
 
-  ordenar(promedio) {
+  ordenarPorPromedio() {
     this.alumnos.sort((a, b) => b.obtenerPromedio() - a.obtenerPromedio());
   }
 }
